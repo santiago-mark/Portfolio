@@ -1,53 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <!-- Required meta tags always come first -->
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
 
-        <!-- Additional CSS must be placed after Bootstrap CSS -->
-        <link rel="stylesheet" href="css/styles.css" />
+    <!-- Additional CSS must be placed after Bootstrap CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
 
-        <title>Mark Santiago</title>
-    </head>
+    <title>Mark Santiago</title>
+</head>
 
-    <body>
-      
-        <header class="jumbotron jumbotron-fluid">
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <h1>Mark Santiago</h1>
-                    </div>
-                </div>
-            </div>
-        </header>
-
-        <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
-            <div class="container">
-                <div class="collapse navbar-collapse" id="menuNavbar">
-                    <ul class="navbar-nav">
-                        
-                    </ul>
-                </div>
+<body>
+    <div>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+            <div class="collapse navbar-collapse" id="menuNavbar">
+                <span class="navbar-text">Hello World!</span>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#">Experience</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#">Projects</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
             </div>
         </nav>
-
-        <footer>
-            <div>
-                <h5>Links</h5>
-
+    </div>
+   
+    <header class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1>Mark Santiago</h1>
+                </div>
             </div>
-        </footer>
+        </div>
+    </header>
 
-         <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
-        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    </body>
+    <div id="experience" class="container">
+        <h2>Experience</h2>
+    </div>
 
+    <div id="projects" class="container">
+        <h2>Projects</h2>
+    </div>
+
+    <div id="contact" class="container">
+        <h2>Contact Me</h2>
+    </div>
+
+    <footer>
+        <div>
+            <h5>Links</h5>
+
+        </div>
+    </footer>
+
+        <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
 </html>
