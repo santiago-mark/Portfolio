@@ -1,6 +1,26 @@
+h2 {
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(224, 225, 221);
+}
+
+h1, p {
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(224, 225, 221);
+}
+
+.jumbotron {
+    background-color: rgb(13, 27, 42);
+}
+
 body {
     position: relative;
     overflow-y: scroll;
+    background-color: rgb(13, 27, 42);
+}
+
+label {
+    color: rgb(224, 225, 221);
+    font-family: 'Roboto Mono', monospace;
 }
 
 .timeline {
@@ -26,6 +46,7 @@ body {
     padding-left: 50%;
     position: relative;
     margin-bottom: 30px;
+    color: rgb(224, 225, 221);
 }
 
 .timeline-row .timeline-time {
@@ -34,14 +55,12 @@ body {
     top: 31px;
     text-align: right;
     margin-right: 20px;
-    color: #000000;
     font-size: 1.5rem;
 }
 
 .timeline-row .timeline-time small {
     display: block;
     font-size: .8rem;
-    color: #8796af;
 }
 
 .timeline-row .timeline-content {
@@ -102,26 +121,14 @@ body {
 }
 
 .timeline-row:nth-child(even) .timeline-content {
-    background-color: #ff5000;
-    /* Fallback Color */
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#fc6d4c), to(#ff5000));
-    /* Saf4+, Chrome */
-    background-image: -webkit-linear-gradient(top, #fc6d4c, #ff5000);
-    /* Chrome 10+, Saf5.1+, iOS 5+ */
-    background-image: -moz-linear-gradient(top, #fc6d4c, #ff5000);
-    /* FF3.6 */
-    background-image: -ms-linear-gradient(top, #fc6d4c, #ff5000);
-    /* IE10 */
-    background-image: -o-linear-gradient(top, #fc6d4c, #ff5000);
-    /* Opera 11.10+ */
-    background-image: linear-gradient(top, #fc6d4c, #ff5000);
+    background-color: rgb(119, 141, 169);
     margin-left: 40px;
     text-align: left;
 }
 
 .timeline-row:nth-child(even) .timeline-content:after {
     left: -39px;
-    border-right: 18px solid #ff5000;
+    border-right: 18px solid rgb(119, 141, 169);
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
 }
@@ -145,19 +152,7 @@ body {
 }
 
 .timeline-row:nth-child(odd) .timeline-content {
-    background-color: #5a99ee;
-    /* Fallback Color */
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#1379bb), to(#5a99ee));
-    /* Saf4+, Chrome */
-    background-image: -webkit-linear-gradient(top, #1379bb, #5a99ee);
-    /* Chrome 10+, Saf5.1+, iOS 5+ */
-    background-image: -moz-linear-gradient(top, #1379bb, #5a99ee);
-    /* FF3.6 */
-    background-image: -ms-linear-gradient(top, #1379bb, #5a99ee);
-    /* IE10 */
-    background-image: -o-linear-gradient(top, #1379bb, #5a99ee);
-    /* Opera 11.10+ */
-    background-image: linear-gradient(top, #1379bb, #5a99ee);
+    background-color: rgb(65, 90, 119);
     margin-right: 40px;
     margin-left: 0;
     text-align: right;
@@ -165,7 +160,7 @@ body {
 
 .timeline-row:nth-child(odd) .timeline-content:after {
     right: -39px;
-    border-left: 18px solid #1379bb;
+    border-left: 18px solid rgb(65, 90, 119);
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
 }
